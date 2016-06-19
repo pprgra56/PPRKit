@@ -1,9 +1,9 @@
 {
   "name": "PPRKit",
   "version": "0.1.0",
-  "summary": "A short description of PPRKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PPRKit",
+  "summary": "Make you be better!",
+  "description": "nothing to descript",
+  "homepage": "https://github.com/pprgra56/PPRKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "ChangQiong": "pprgra56@126.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PPRKit.git",
+    "git": "https://github.com/pprgra56/PPRKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PPRKit/Classes/**/*"
+  "source_files": "PPRKit/Classes/**/*",
+  "resources": "PPRKit/Img/*.png",
+  "frameworks": "UIKit"
 }

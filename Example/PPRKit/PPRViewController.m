@@ -25,8 +25,10 @@
     [jk three:23];
 
 
-    PPRView *jv = [[PPRView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    [self.view addSubview:jv];
+
+    PPRSmallCata *cat = [[PPRSmallCata alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [cat  performSelector:@selector(displayCat)];
+    [self.view addSubview: cat];
 }
 
 - (void)didReceiveMemoryWarning
