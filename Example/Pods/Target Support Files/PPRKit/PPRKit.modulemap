@@ -1,0 +1,6 @@
+framework module PPRKit {
+  umbrella header "PPRKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

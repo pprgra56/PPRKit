@@ -7,6 +7,7 @@
 //
 
 #import "PPRViewController.h"
+@import PPRKit;
 
 @interface PPRViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    PPRString *jk = [[PPRString alloc] init];
+    [jk one];
+    [jk two:@"cahngqjon"];
+    [jk three:23];
+
+
+    PPRView *jv = [[PPRView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:jv];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,6 @@
+framework module Pods_PPRKit_Tests {
+  umbrella header "Pods-PPRKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
