@@ -27,8 +27,14 @@
 
 
     PPRSmallCata *cat = [[PPRSmallCata alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    [cat  performSelector:@selector(displayCat)];
+    [cat displayCat];
     [self.view addSubview: cat];
+
+
+
+    UIImageView *iv =  [[UIImageView alloc] initWithFrame:CGRectMake(200, 300, 50, 50)];
+    [iv setImage:[UIImage imageNamed:@"pink"]];
+    [self.view addSubview:iv];
 }
 
 - (void)didReceiveMemoryWarning

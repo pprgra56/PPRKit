@@ -1,5 +1,7 @@
 PODS:
-  - PPRKit (0.1.0)
+  - PPRKit (1.0.0):
+    - PPRKit/PPCat (= 1.0.0)
+  - PPRKit/PPCat (1.0.0)
 
 DEPENDENCIES:
   - PPRKit (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PPRKit: 74a2a0e3227dfa4aacddee25cf1bc93c75c7cdb5
+  PPRKit: c4b824f3cd9b557e114b12706b77a272fb12ddef
 
 PODFILE CHECKSUM: 669e3ab8570b688f7ebf510e0a68e1825e6b916f
 

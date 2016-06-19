@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PPRSmallCata : UIView
-
+- (void)displayCat;
 @end
